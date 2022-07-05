@@ -17,5 +17,5 @@ const changepokemon = async ()=>{
     pokename.textContent=response.name;
 }
 
-
+changepokemon()
 button.addEventListener("click",changepokemon)
